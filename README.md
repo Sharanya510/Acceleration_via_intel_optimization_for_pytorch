@@ -1,5 +1,7 @@
 # Acceleration_via_intel_optimization_for_pytorch
-This repo helps in practicing the concepts like Sklearn, regression, Tensorflow, PyTorch. Additionally, accelerate the regression or classification data mining pipeline.
+This repo helps in practicing the concepts like Sklearn, regression, Tensorflow, PyTorch. 
+
+Additionally, accelerate the regression or classification data mining pipeline.
 
 ## DataSet Chosen 
 I have used multiple datasets in this assignment.
@@ -10,7 +12,7 @@ I have used “Fashion MNIST” dataset for training neural networks using PyTor
 
 For the acceleration, the option I chose is Accelerate Tensorflow or PyTorch regression or classification. 
 
-From this, I chose: Accelerate the algorithm via Intel Optimization for Pytorch [link] (https://www.intel.com/content/www/us/en/developer/articles/guide/getting-started-with-intel-optimization-of-pytorch.html)
+From this, I chose: Accelerate the algorithm via Intel Optimization for Pytorch (https://www.intel.com/content/www/us/en/developer/articles/guide/getting-started-with-intel-optimization-of-pytorch.html)
 
 ## Steps Carried out
 ### Section 1 : Sklearn
