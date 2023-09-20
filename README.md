@@ -76,7 +76,7 @@ For optimizing with Intel Extension, there are only few lines of code changes to
 
 2. ipex.optimize : This function is used for optimization. Inference: Channels last is a memory layout format that is more friendly to Intel Architecture. 
 
-We recommend using this memory layout format for computer vision worokloads by invoking to(memory_format = torch.channels_last) function against the model object and input data. 
+We recommend using this memory layout format for computer vision workloads by invoking to(memory_format = torch.channels_last) function against the model object and input data. 
 
 The optimize function of Intel Extension for PyTorch applies optimizations to the model, bringing additional performance boosts. For both computer vision workloads and NLP workloads, we recommend applying the optimize function against the model object.
 
@@ -86,7 +86,7 @@ Before Acceleration, the execution time was 217.30 ms.
 
 After Acceleration, with inference, the execution time is 36.8 ms, this is the Imperative mode. 
 
-There is an other mode, which is TouchScript mode, this is generally used for obtaining further optimizations In this mode, the execution time obtained is 9.52 ms. A graph is attached below.
+There is an other mode, which is TorchScript mode, this is generally used for obtaining further optimizations In this mode, the execution time obtained is 9.52 ms. A graph is attached below.
 
 ![output](output.png)
 
